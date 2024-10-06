@@ -1,5 +1,5 @@
 import { pipeline, env } from '@xenova/transformers';
-env.allowLocalModels = false;
+env.allowLocalModels = true;
 env.useBrowserCache = true;
 env.allowRemoteModels = true;
 
